@@ -1,43 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Contact Us</title>
+    <head>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="Contact.html" class="active">Contact Us</a></li>
+
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
         </ul>
-    </nav>
+      </div>
+    </div>
+  </nav>   
+  
+
     
-    <section class="contact-info">
-        <h1>Contact Us</h1>
-        <p>We would love to hear from you! Reach out to us using any of the following methods:</p>
-        <div class="contact-details">
-            <p><strong>Phone:</strong> +1 (123) 456-7890</p>
-            <p><strong>Email:</strong> support@yourcompany.com</p>
-            <p><strong>Address:</strong> 1234 Elm Street, Suite 567, Your City, Your Country</p>
+  
+
+
+
+
+
+
+     
+        
+          
+      
+    <div class="contact-container">
+        <div class="contact-frame">
+            <img src="/static/car_dealership.jpg"  class="contact-image">
+            <div class="contact-info">
+                <p><strong>Contact Customer Service:</strong></p>
+                <p>support@bestcars.com</p>
+                <p><strong>Contact our National Advertising team:</strong></p>
+                <p>NationalSales@bestcars.com</p>
+                <p><strong>Contact our Public Relations team:</strong></p>
+                <p>PR@bestcars.com</p>
+                <p><strong>Contact the bestcars.com offices:</strong></p>
+                <p>312-611-1111</p>
+                <p><strong>Become a bestcars.com car dealer:</strong></p>
+                <p>Visit growwithbestcars.com</p>
+            </div>
         </div>
-        <form class="contact-form">
-            <h2>Get in Touch</h2>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            
-            <button type="submit">Submit</button>
-        </form>
-    </section>
+    </div>
 </body>
 </html>
+
 
